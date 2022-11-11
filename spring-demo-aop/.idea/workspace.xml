@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="Spring AOP Before advice works only on specific class fix error">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainDemoApp.java" afterDir="false" />
+    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="Spring AOP Before advice with return type">
       <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/MembershipDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/MembershipDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668164899064</updated>
       <workItem from="1668164901735" duration="190000" />
-      <workItem from="1668165131356" duration="5497000" />
+      <workItem from="1668165131356" duration="6063000" />
     </task>
     <task id="LOCAL-00001" summary="init Spring AOP demo project">
       <created>1668165568139</created>
@@ -126,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668175014744</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Spring AOP Before advice with wildcard method name starts with add">
+      <created>1668175148385</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668175148385</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Spring AOP Before advice with return type">
+      <created>1668175704261</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668175704261</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +161,8 @@
     <MESSAGE value="Spring AOP Before advice works on every class :)" />
     <MESSAGE value="Spring AOP Before advice works only on specific class" />
     <MESSAGE value="Spring AOP Before advice works only on specific class fix error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP Before advice works only on specific class fix error" />
+    <MESSAGE value="Spring AOP Before advice with wildcard method name starts with add" />
+    <MESSAGE value="Spring AOP Before advice with return type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP Before advice with return type" />
   </component>
 </project>
