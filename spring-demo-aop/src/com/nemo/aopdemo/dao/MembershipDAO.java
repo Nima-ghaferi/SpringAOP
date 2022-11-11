@@ -8,7 +8,8 @@ public class MembershipDAO {
         System.out.println(getClass() + ": Adding membership account");
     }
 
-    public void addSilly() {
+    public boolean addSilly() {
         System.out.println(getClass() + ": Adding silly account");
+        return true;
     }
 }
