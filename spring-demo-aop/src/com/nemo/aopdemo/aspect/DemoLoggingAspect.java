@@ -65,4 +65,11 @@ public class DemoLoggingAspect {
         System.out.println("\n=========> @AfterThrowing advice on " + method);
         System.out.println("\n=========> the exception: " + e);
     }
+
+
+    @After("execution(* com.nemo.aopdemo.dao.AccountDAO.findAccounts(..))")
+    public void afterFinallyAdvice(JoinPoint joinPoint) {
+        String method = joinPoint.getSignature().toShortString();
+        System.out.println("\n=========> @After(finally) advice on " + method);
+    }
 }
