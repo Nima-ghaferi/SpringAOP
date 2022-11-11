@@ -1,6 +1,7 @@
 package com.nemo.aopdemo;
 
 import com.nemo.aopdemo.dao.AccountDAO;
+import com.nemo.aopdemo.dao.MembershipDAO;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MainDemoApp {
@@ -8,6 +9,9 @@ public class MainDemoApp {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DemoConfig.class);
         AccountDAO accountDAO = context.getBean("accountDAO", AccountDAO.class);
         accountDAO.addAccount();
+
+        MembershipDAO membershipDAO = context.getBean("membershipDAO", MembershipDAO.class);
+        membershipDAO.addAccount();
         context.close();
     }
 }
