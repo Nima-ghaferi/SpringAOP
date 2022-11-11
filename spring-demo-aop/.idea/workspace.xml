@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="Spring AOP join point: get method args">
-      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainAfterReturningDemoApp.java" afterDir="false" />
+    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="Spring AOP after returning advice, modify the result">
+      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainAfterThrowingDemoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainAfterReturningDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainAfterReturningDemoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/AccountDAO.java" afterDir="false" />
     </list>
@@ -58,9 +58,22 @@
       <recent name="com.nemo.aopdemo.aspect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainAfterReturningDemoApp">
+  <component name="RunManager" selected="Application.MainAfterThrowingDemoApp">
     <configuration name="MainAfterReturningDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nemo.aopdemo.MainAfterReturningDemoApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nemo.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAfterThrowingDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nemo.aopdemo.MainAfterThrowingDemoApp" />
       <module name="spring-demo-aop" />
       <extension name="coverage">
         <pattern>
@@ -87,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAfterThrowingDemoApp" />
         <item itemvalue="Application.MainAfterReturningDemoApp" />
         <item itemvalue="Application.MainDemoApp" />
       </list>
@@ -101,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668164899064</updated>
       <workItem from="1668164901735" duration="190000" />
-      <workItem from="1668165131356" duration="12402000" />
+      <workItem from="1668165131356" duration="13529000" />
     </task>
     <task id="LOCAL-00001" summary="init Spring AOP demo project">
       <created>1668165568139</created>
@@ -201,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668190717317</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Spring AOP after returning advice">
+      <created>1668194066373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668194066373</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Spring AOP after returning advice, modify the result">
+      <created>1668194229383</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668194229383</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +261,9 @@
     <MESSAGE value="Spring AOP order aspects" />
     <MESSAGE value="Spring AOP join point: get method signature" />
     <MESSAGE value="Spring AOP join point: get method args" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP join point: get method args" />
+    <MESSAGE value="Spring AOP after returning advice" />
+    <MESSAGE value="Spring AOP after returning advice, modify the result" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP after returning advice, modify the result" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,7 +13,10 @@ public class AccountDAO {
         System.out.println(getClass() + ": Adding account");
     }
 
-    public List<Account> findAccounts() {
+    public List<Account> findAccounts() throws Exception {
+        if (true)
+            throw new Exception("NO FOOD :(");
+
         List<Account> accounts = new ArrayList<>();
         Account account = new Account("nemp", "vip");
         Account account1 = new Account("madu", "plat");

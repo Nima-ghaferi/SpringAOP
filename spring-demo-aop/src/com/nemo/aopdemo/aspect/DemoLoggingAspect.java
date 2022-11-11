@@ -2,10 +2,7 @@ package com.nemo.aopdemo.aspect;
 
 import com.nemo.aopdemo.Account;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
@@ -60,5 +57,12 @@ public class DemoLoggingAspect {
             acc.setName(acc.getName().toUpperCase());
             acc.setLevel(acc.getLevel().toUpperCase());
         });
+    }
+
+    @AfterThrowing(pointcut = "execution(* com.nemo.aopdemo.dao.AccountDAO.findAccounts(..))", throwing = "e")
+    public void afterThrowingAdvice(JoinPoint joinPoint, Throwable e) {
+        String method = joinPoint.getSignature().toShortString();
+        System.out.println("\n=========> @AfterThrowing advice on " + method);
+        System.out.println("\n=========> the exception: " + e);
     }
 }
