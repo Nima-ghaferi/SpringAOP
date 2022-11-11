@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="Spring AOP order aspects">
+    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="Spring AOP join point: get method signature">
+      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainDemoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/AccountDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668164899064</updated>
       <workItem from="1668164901735" duration="190000" />
-      <workItem from="1668165131356" duration="9409000" />
+      <workItem from="1668165131356" duration="10097000" />
     </task>
     <task id="LOCAL-00001" summary="init Spring AOP demo project">
       <created>1668165568139</created>
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668184406871</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Spring AOP join point: get method signature">
+      <created>1668190074904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668190074904</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +209,18 @@
     <MESSAGE value="Spring AOP point cut declaration" />
     <MESSAGE value="Spring AOP point cut combination" />
     <MESSAGE value="Spring AOP order aspects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP order aspects" />
+    <MESSAGE value="Spring AOP join point: get method signature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP join point: get method signature" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
