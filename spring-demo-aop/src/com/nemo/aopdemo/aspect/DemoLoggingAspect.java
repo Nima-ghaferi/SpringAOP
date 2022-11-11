@@ -2,6 +2,7 @@ package com.nemo.aopdemo.aspect;
 
 import com.nemo.aopdemo.Account;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 import javax.accessibility.AccessibleAction;
 import java.util.Arrays;
+import java.util.List;
 
 @Aspect
 @Component
@@ -18,10 +20,12 @@ import java.util.Arrays;
 public class DemoLoggingAspect {
 
     @Pointcut("execution(* add*())")
-    private void allAddMethods() {}
+    private void allAddMethods() {
+    }
 
     @Pointcut("execution(* com.nemo.aopdemo.dao.*.*())")
-    private void allMethodsInDAOPackage() {}
+    private void allMethodsInDAOPackage() {
+    }
 
     //@Before("allAddMethods() && allMethodsInDAOPackage()")
     //@Before("execution(boolean add*(java.lang.String))")----match with specific arg type
@@ -43,5 +47,14 @@ public class DemoLoggingAspect {
                 System.out.println("AccountLevel: " + temp.getLevel());
             }
         });
+    }
+
+
+    @AfterReturning(pointcut = "execution(* com.nemo.aopdemo.dao.AccountDAO.findAccounts(..))", returning = "result")
+    public void afterReturningFindAccountAdvise(JoinPoint joinPoint, List<Account> result) {
+        String method = joinPoint.getSignature().toShortString();
+        System.out.println("\n=========> @AfterReturning advice on " + method);
+        System.out.println("\n=========> the result: " + result);
+
     }
 }
