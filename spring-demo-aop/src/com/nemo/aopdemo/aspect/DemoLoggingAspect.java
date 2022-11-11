@@ -56,5 +56,9 @@ public class DemoLoggingAspect {
         System.out.println("\n=========> @AfterReturning advice on " + method);
         System.out.println("\n=========> the result: " + result);
 
+        result.stream().forEach(acc -> {
+            acc.setName(acc.getName().toUpperCase());
+            acc.setLevel(acc.getLevel().toUpperCase());
+        });
     }
 }
