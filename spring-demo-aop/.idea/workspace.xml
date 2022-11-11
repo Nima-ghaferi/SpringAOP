@@ -1,85 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/aspectjweaver-1.8.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-5.0.2.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-5.0.2.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo-aop.iml" afterDir="false" />
+    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="init Spring AOP demo project">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HOnFrFyb4h13plYZ9smiXyW16E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,8 +47,32 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nemo.aopdemo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nemo.aopdemo.MainDemoApp" />
+      <module name="spring-demo-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nemo.aopdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainDemoApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,8 +83,16 @@
       <option name="presentableId" value="Default" />
       <updated>1668164899064</updated>
       <workItem from="1668164901735" duration="190000" />
-      <workItem from="1668165131356" duration="281000" />
+      <workItem from="1668165131356" duration="2826000" />
     </task>
+    <task id="LOCAL-00001" summary="init Spring AOP demo project">
+      <created>1668165568139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668165568140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +108,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init Spring AOP demo project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Spring AOP demo project" />
   </component>
 </project>
