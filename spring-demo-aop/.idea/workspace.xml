@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="init Spring AOP demo project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/MainDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/dao/AccountDAO.java" afterDir="false" />
+    <list default="true" id="e1678fac-f09d-4e9d-8788-67c16e025748" name="Changes" comment="init Spring AOP prepare project">
+      <change afterPath="$PROJECT_DIR$/src/com/nemo/aopdemo/aspect/DemoLoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668164899064</updated>
       <workItem from="1668164901735" duration="190000" />
-      <workItem from="1668165131356" duration="2826000" />
+      <workItem from="1668165131356" duration="3938000" />
     </task>
     <task id="LOCAL-00001" summary="init Spring AOP demo project">
       <created>1668165568139</created>
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668165568140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init Spring AOP prepare project">
+      <created>1668171181816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668171181816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init Spring AOP demo project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Spring AOP demo project" />
+    <MESSAGE value="init Spring AOP prepare project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init Spring AOP prepare project" />
   </component>
 </project>
