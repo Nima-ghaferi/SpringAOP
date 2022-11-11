@@ -10,11 +10,12 @@ import org.springframework.stereotype.Component;
 public class DemoLoggingAspect {
 
     @Pointcut("execution(* add*())")
-    private void allAddMethods() {
+    private void allAddMethods() {}
 
-    }
+    @Pointcut("execution(* com.nemo.aopdemo.dao.*.*())")
+    private void allMethodsInDAOPackage() {}
 
-    @Before("allAddMethods()")
+    @Before("allAddMethods() && allMethodsInDAOPackage()")
     //@Before("execution(boolean add*(java.lang.String))")----match with specific arg type
     //@Before("execution(boolean add*())")-----match with no arg method
     //@Before("execution(boolean add*(*))")-----match with one arg with any type
