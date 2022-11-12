@@ -2,6 +2,7 @@ package com.nemo.aopdemo.aspect;
 
 import com.nemo.aopdemo.Account;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.core.annotation.Order;
@@ -71,5 +72,17 @@ public class DemoLoggingAspect {
     public void afterFinallyAdvice(JoinPoint joinPoint) {
         String method = joinPoint.getSignature().toShortString();
         System.out.println("\n=========> @After(finally) advice on " + method);
+    }
+
+    @Around("execution(* com.nemo.aopdemo.service.TrafficFortuneService.getFortune(..))")
+    public Object aroundGetFortune(ProceedingJoinPoint joinPoint) throws Throwable {
+        String method = joinPoint.getSignature().toShortString();
+        System.out.println("\n=========> @Around advice on " + method);
+        long begin = System.currentTimeMillis();
+        Object result = joinPoint.proceed();
+        long end = System.currentTimeMillis();
+        long duration = end - begin;
+        System.out.println("\nDuration: " + duration / 1000.0 + " seconds.");
+        return result;
     }
 }
