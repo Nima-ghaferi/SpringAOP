@@ -54,7 +54,7 @@ public class DemoLoggingAspect {
         System.out.println("\n=========> @AfterReturning advice on " + method);
         System.out.println("\n=========> the result: " + result);
 
-        result.stream().forEach(acc -> {
+        result.forEach(acc -> {
             acc.setName(acc.getName().toUpperCase());
             acc.setLevel(acc.getLevel().toUpperCase());
         });
@@ -79,13 +79,14 @@ public class DemoLoggingAspect {
         String method = joinPoint.getSignature().toShortString();
         System.out.println("\n=========> @Around advice on " + method);
         long begin = System.currentTimeMillis();
-        Object result = null;
+        Object result;
 
         try {
             result = joinPoint.proceed();
         } catch (Throwable e) {
             e.printStackTrace();
-            result = "Major Accident!!! but no worries, your private  jet is on the way!! :D";
+//            result = "Major Accident!!! but no worries, your private  jet is on the way!! :D";
+            throw e;
         }
         long end = System.currentTimeMillis();
         long duration = end - begin;
