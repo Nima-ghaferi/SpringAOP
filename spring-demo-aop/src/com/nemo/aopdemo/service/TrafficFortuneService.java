@@ -7,11 +7,14 @@ import java.util.concurrent.TimeUnit;
 
 @Component
 public class TrafficFortuneService {
-    public String getFortune() {
+    public String getFortune(boolean exc) throws InterruptedException {
         try {
+            if (exc)
+                throw new RuntimeException("Major accident!!!");
             TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
+            throw e;
         }
 
         return "Expect heavy traffic this morning";

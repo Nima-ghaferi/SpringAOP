@@ -79,7 +79,14 @@ public class DemoLoggingAspect {
         String method = joinPoint.getSignature().toShortString();
         System.out.println("\n=========> @Around advice on " + method);
         long begin = System.currentTimeMillis();
-        Object result = joinPoint.proceed();
+        Object result = null;
+
+        try {
+            result = joinPoint.proceed();
+        } catch (Throwable e) {
+            e.printStackTrace();
+            result = "Major Accident!!! but no worries, your private  jet is on the way!! :D";
+        }
         long end = System.currentTimeMillis();
         long duration = end - begin;
         System.out.println("\nDuration: " + duration / 1000.0 + " seconds.");
